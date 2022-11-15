@@ -12,11 +12,11 @@
                 </div>
 
             <form method="post">
-                <div class="card-body">
+                <div class="card-body" style="width: 100%">
                     {% csrf_token %}
                     {{ form.as_p }}
                 </div>
-                <div class="card-footer text-center">
+                <div class="card-footer text-center" style="width: 100%">
                     <button type="submit" class="btn btn-primary">Save</button>
                 </div>
             </form>
